@@ -227,21 +227,6 @@ export default function Onboarding({ onComplete, currentPage = "builder" }) {
           </div>
         </div>
       </div>
-
-      {/* Highlight Box */}
-      {highlightElement && (
-        <div
-          className={styles.highlightBox}
-          style={{
-            top: `${highlightElement.top - 8}px`,
-            left: `${highlightElement.left - 8}px`,
-            width: `${highlightElement.width + 16}px`,
-            height: `${highlightElement.height + 16}px`,
-          }}
-        >
-          <div className={styles.highlightPulse}></div>
-        </div>
-      )}
     </>
   );
 }

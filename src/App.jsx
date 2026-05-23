@@ -349,7 +349,7 @@ function App() {
     return (
       <>
         <Onboarding onComplete={handleCompleteOnboarding} currentPage={page} />
-        <div style={{ opacity: 0.3, pointerEvents: "none" }}>
+        <div style={{ pointerEvents: "none" }}>
           {renderContent()}
         </div>
       </>
@@ -491,40 +491,17 @@ function App() {
           gap: "40px",
         }}>
           {receivedInvoiceId && (
-            <div
-              style={{
-                background: "#e8f5e9",
-                border: "2px solid #a5d6a7",
-                borderRadius: 12,
-                padding: "16px 20px",
-                marginBottom: "20px",
-                color: "#2e7d32",
-                fontWeight: 600,
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-              }}
-            >
+            <div className="loaded-invoice-banner">
               <span>
                 Invoice {invoice.invoice_number || `#${receivedInvoiceId}`} loaded
                 — review the preview on the right or download below.
               </span>
               <button
+                className="back-button"
                 onClick={() => {
                   setReceivedInvoiceId(null);
                   setLoadedInvoiceStatus(null);
                   window.history.replaceState({}, "", "/");
-                }}
-                style={{
-                  background: "#2e7d32",
-                  color: "#fff",
-                  border: "none",
-                  borderRadius: 8,
-                  padding: "8px 16px",
-                  cursor: "pointer",
-                  fontWeight: 600,
-                  fontSize: 13,
-                  marginLeft: 16,
                 }}
               >
                 ← Back to New Invoice
