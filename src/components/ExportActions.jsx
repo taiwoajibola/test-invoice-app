@@ -223,7 +223,7 @@ export default function ExportActions({
 
         {isGuest && (
           <>
-            {/* Preview & Download Buttons for Guests */}
+            {/* Preview Button for Guests */}
             <div className={styles.guestActions}>
               <button
                 className={styles.primaryButton}
@@ -232,15 +232,6 @@ export default function ExportActions({
               >
                 <Eye size={18} />
                 Preview Invoice
-              </button>
-
-              <button
-                className={styles.secondaryButton}
-                onClick={handleDownloadDirect}
-                disabled={!hasRequiredFields}
-              >
-                <Download size={18} />
-                Download PDF
               </button>
             </div>
 

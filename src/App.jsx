@@ -340,6 +340,10 @@ function App() {
     }
   }
 
+  // Show sidebar for logged-in users on app pages (not for guests)
+  const showSidebarNav = profile && page !== "landing" && page !== "login" && page !== "register";
+  const showHeader = !profile && (page === "main" || page === "rfq");
+
   // Show onboarding overlay (skip for guest mode)
   if (showOnboarding && !isGuestMode && (page === "main" || page === "invoices" || page === "requests" || page === "negotiations" || page === "negotiation-details")) {
     return (
@@ -612,10 +616,6 @@ function App() {
       </>
     );
   }
-
-  // Show sidebar for logged-in users on app pages (not for guests)
-  const showSidebarNav = profile && page !== "landing" && page !== "login" && page !== "register";
-  const showHeader = !profile && (page === "main" || page === "rfq");
 
   return (
     <div style={{ display: "flex", minHeight: "100vh" }}>

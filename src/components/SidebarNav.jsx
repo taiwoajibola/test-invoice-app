@@ -23,10 +23,8 @@ export default function SidebarNav({
   return (
     <aside className={styles.sidebar}>
       {/* Logo */}
-      <div className={styles.logo}>
-        <div className={styles.logoIcon}>
-          <FileText className={styles.logoIconSvg} />
-        </div>
+      <div className={styles.logo} onClick={() => onNavigate("main")} role="button" tabIndex={0}>
+        <img src="/logo.png" alt="Free Invoice" className={styles.logoImage} />
         <div className={styles.logoText}>
           <span className={styles.logoName}>Free Invoice</span>
           <span className={styles.logoTagline}>Create & Manage</span>

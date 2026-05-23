@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FileCheck, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import styles from "./Header.module.css";
 
 export default function Header({
@@ -13,6 +13,14 @@ export default function Header({
 }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  function handleLogoClick() {
+    if (profile) {
+      onNavigate?.("main");
+    } else {
+      onNavigate?.("landing");
+    }
+  }
+
   function handleLogout() {
     localStorage.removeItem("profile");
     setMobileMenuOpen(false);
@@ -25,8 +33,8 @@ export default function Header({
       <nav className={styles.nav}>
         <div className={styles.navContainer}>
           <div className={styles.navLeft}>
-            <div className={styles.logo}>
-              <FileCheck className={styles.logoIcon} />
+            <div className={styles.logo} onClick={handleLogoClick} role="button" tabIndex={0}>
+              <img src="/logo.png" alt="Free Invoice" className={styles.logoImage} />
               <span className={styles.logoText}>Free Invoice</span>
             </div>
           </div>

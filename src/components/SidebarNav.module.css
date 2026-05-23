@@ -20,23 +20,19 @@
   padding: 28px 24px;
   border-bottom: 1px solid #e2e8f0;
   background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  cursor: pointer;
+  transition: background 0.2s;
 }
 
-.logoIcon {
+.logo:hover {
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+}
+
+.logoImage {
   width: 48px;
   height: 48px;
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  object-fit: contain;
   border-radius: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25);
-}
-
-.logoIconSvg {
-  width: 26px;
-  height: 26px;
-  color: #fff;
 }
 
 .logoText {

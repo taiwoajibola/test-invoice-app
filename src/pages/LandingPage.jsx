@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FileCheck, ArrowRight, ChevronDown, ChevronUp, Zap, Shield, Smartphone, MessageCircle, BarChart3, BookOpen, Video, HelpCircle, Star } from "lucide-react";
+import { ArrowRight, ChevronDown, ChevronUp, Zap, Shield, Smartphone, MessageCircle, BarChart3, Star } from "lucide-react";
 import ParticleBackground from "../components/ParticleBackground";
 import styles from "./LandingPage.module.css";
 
@@ -81,7 +81,7 @@ export default function LandingPage({ onGetStarted, onLogin, invoiceCount }) {
       <nav className={styles.nav}>
         <div className={styles.navContainer}>
           <div className={styles.logo}>
-            <FileCheck className={styles.logoIcon} />
+            <img src="/logo.png" alt="Free Invoice" className={styles.logoImage} />
             <span className={styles.logoText}>Free Invoice</span>
           </div>
           <div className={styles.navLinks}>
@@ -217,34 +217,22 @@ export default function LandingPage({ onGetStarted, onLogin, invoiceCount }) {
         </div>
       </section>
 
-      {/* Tutorials Section */}
+      {/* Video Tutorial Section */}
       <section id="tutorials" className={styles.tutorials}>
-        <h2 className={styles.sectionTitle}>Learning Resources</h2>
-        <div className={styles.tutorialsGrid}>
-          <div className={styles.tutorialCard}>
-            <div className={styles.tutorialIconWrapper}>
-              <BookOpen className={styles.tutorialIcon} />
-            </div>
-            <h3>Getting Started Guide</h3>
-            <p>Learn the basics in 5 minutes</p>
-            <button className={styles.tutorialButton}>View Guide</button>
+        <h2 className={styles.sectionTitle}>Watch How It Works</h2>
+        <div className={styles.videoContainer}>
+          <div className={styles.videoWrapper}>
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="Invoice Tutorial"
+              className={styles.videoIframe}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
-          <div className={styles.tutorialCard}>
-            <div className={styles.tutorialIconWrapper}>
-              <Video className={styles.tutorialIcon} />
-            </div>
-            <h3>Video Tutorials</h3>
-            <p>Watch step-by-step walkthroughs</p>
-            <button className={styles.tutorialButton}>Watch Videos</button>
-          </div>
-          <div className={styles.tutorialCard}>
-            <div className={styles.tutorialIconWrapper}>
-              <HelpCircle className={styles.tutorialIcon} />
-            </div>
-            <h3>Help Center</h3>
-            <p>Find answers to common questions</p>
-            <button className={styles.tutorialButton}>Visit Help Center</button>
-          </div>
+          <p className={styles.videoCaption}>
+            Learn how to create, manage, and negotiate invoices in minutes
+          </p>
         </div>
       </section>
 
