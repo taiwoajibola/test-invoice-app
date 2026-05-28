@@ -81,7 +81,7 @@ export default function LandingPage({ onGetStarted, onLogin, invoiceCount }) {
       <nav className={styles.nav}>
         <div className={styles.navContainer}>
           <div className={styles.logo}>
-            <img src="/logo.png" alt="Free Invoice" className={styles.logoImage} />
+            <img src="/logo.svg" alt="Free Invoice" className={styles.logoImage} />
             <span className={styles.logoText}>Free Invoice</span>
           </div>
           <div className={styles.navLinks}>

@@ -75,7 +75,7 @@
 }
 
 .progressActive {
-  background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 100%);
+  background: linear-gradient(90deg, #FFFA71 0%, #1A1A2E 100%);
   box-shadow: 0 2px 8px rgba(59, 130, 246, 0.4);
 }
 
@@ -86,7 +86,7 @@
 .stepIndicator {
   font-size: 0.75rem;
   font-weight: 700;
-  color: #3b82f6;
+  color: #FFFA71;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-bottom: 10px;
@@ -95,7 +95,7 @@
 .tourTitle {
   font-size: 1.625rem;
   font-weight: 800;
-  color: #0f172a;
+  color: #1A1A2E;
   margin: 0 0 14px 0;
   line-height: 1.2;
 }
@@ -132,7 +132,7 @@
 
 .pauseBtn:hover {
   background: #e2e8f0;
-  color: #0f172a;
+  color: #1A1A2E;
 }
 
 .prevButton {
@@ -152,14 +152,14 @@
 }
 
 .prevButton:hover {
-  border-color: #0f172a;
-  color: #0f172a;
+  border-color: #1A1A2E;
+  color: #1A1A2E;
   background: #f8fafc;
 }
 
 .nextButton {
   flex: 1;
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  background: #1A1A2E;
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -254,13 +254,13 @@
 
 .pauseIcon {
   margin-bottom: 24px;
-  color: #3b82f6;
+  color: #FFFA71;
 }
 
 .pauseTitle {
   font-size: 1.875rem;
   font-weight: 800;
-  color: #0f172a;
+  color: #1A1A2E;
   margin: 0 0 16px 0;
 }
 
@@ -278,7 +278,7 @@
 }
 
 .resumeButton {
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  background: #1A1A2E;
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -322,7 +322,7 @@
 /* Highlight Box */
 .highlightBox {
   position: fixed;
-  border: 3px solid #3b82f6;
+  border: 3px solid #FFFA71;
   border-radius: 16px;
   box-shadow: 0 0 0 9999px rgba(15, 23, 42, 0.7);
   z-index: 9998;

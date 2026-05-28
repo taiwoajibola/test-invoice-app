@@ -157,7 +157,7 @@ const s = {
   pageTitle: {
     fontSize: 22,
     fontWeight: 700,
-    color: "var(--color-accent, #0f172a)",
+    color: "var(--color-accent, #1A1A2E)",
     margin: "0 0 8px 0",
   },
   subtitle: {
@@ -187,7 +187,7 @@ const s = {
   },
   rfqId: {
     fontSize: 12,
-    color: "#3b82f6",
+    color: "#1A1A2E",
     fontFamily: "monospace",
     margin: "0 0 8px 0",
   },
@@ -218,7 +218,7 @@ const s = {
   sectionTitle: {
     fontSize: 16,
     fontWeight: 700,
-    color: "#0f172a",
+    color: "#1A1A2E",
     margin: "0 0 14px 0",
   },
   card: {

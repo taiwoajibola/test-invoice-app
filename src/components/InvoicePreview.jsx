@@ -1,6 +1,5 @@
 import React from "react";
 import { formatCurrency, calculateLineTotal } from "../utils/calculations";
-import NegotiationPanel from "./NegotiationPanel";
 
 export default function InvoicePreview({
   invoice,
@@ -79,7 +78,7 @@ export default function InvoicePreview({
           ))}
         </tbody>
       </table>
-      <h3 style={{ fontSize: "1.5rem", fontWeight: 700, color: "#0f172a", margin: "24px 0" }}>
+      <h3 style={{ fontSize: "1.5rem", fontWeight: 700, color: "#1A1A2E", margin: "24px 0" }}>
         {formatCurrency(total, "en-NG", invoice.currency)}
       </h3>
       
@@ -92,7 +91,7 @@ export default function InvoicePreview({
             borderRadius: "12px",
             margin: 0
           }}>
-            <strong style={{ color: "#3b82f6" }}>Notes:</strong> {invoice.notes}
+            <strong style={{ color: "#1A1A2E" }}>Notes:</strong> {invoice.notes}
           </p>
         </div>
       )}
@@ -132,22 +131,14 @@ export default function InvoicePreview({
             <p className="signer-name" style={{
               marginTop: "12px",
               fontSize: "0.9375rem",
-              color: "#0f172a"
+              color: "#1A1A2E"
             }}>
-              <strong style={{ color: "#3b82f6" }}>Signed by:</strong> {invoice.signerName}
+              <strong style={{ color: "#1A1A2E" }}>Signed by:</strong> {invoice.signerName}
             </p>
           )}
         </div>
       )}
 
-      {/* NegotiationPanel integration */}
-      {profileId && invoice.invoice_number && invoiceStatus !== "draft" && (
-        <NegotiationPanel
-          invoiceId={invoice.invoice_number}
-          profileId={profileId}
-          isOwner={isOwner}
-        />
-      )}
     </div>
   );
 }

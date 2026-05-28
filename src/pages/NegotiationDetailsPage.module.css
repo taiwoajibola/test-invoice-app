@@ -18,7 +18,7 @@
   width: 48px;
   height: 48px;
   border: 4px solid #e2e8f0;
-  border-top-color: #3b82f6;
+  border-top-color: #FFFA71;
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
@@ -68,7 +68,7 @@
 .title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #1A1A2E;
   margin: 0 0 4px 0;
 }
 
@@ -142,13 +142,13 @@
 .offerValue {
   font-size: 1.125rem;
   font-weight: 600;
-  color: #0f172a;
+  color: #1A1A2E;
 }
 
 .offerValueHighlight {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #16a34a;
+  color: #1A1A2E;
 }
 
 .offerValueNegative {
@@ -171,7 +171,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: linear-gradient(135deg, #16a34a 0%, #059669 100%);
+  background: #1A1A2E;
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -216,7 +216,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  background: #1A1A2E;
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -239,7 +239,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  background: #FFFA71;
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -319,7 +319,7 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  background: #1a1a1a;
+  background: #1A1A2E;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -365,7 +365,7 @@
 .builderField span {
   font-size: 0.9375rem;
   font-weight: 500;
-  color: #0f172a;
+  color: #1A1A2E;
 }
 
 .builderTable {
@@ -389,11 +389,11 @@
 .builderTable td {
   padding: 10px 12px;
   border-bottom: 1px solid #f1f5f9;
-  color: #0f172a;
+  color: #1A1A2E;
 }
 
 .builderTable tfoot td {
-  border-top: 2px solid #0f172a;
+  border-top: 2px solid #1A1A2E;
   border-bottom: none;
   font-size: 0.9375rem;
   padding: 12px;
@@ -417,7 +417,7 @@
   gap: 10px;
   font-size: 1.125rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #1A1A2E;
   margin: 0 0 20px 0;
 }
 
@@ -459,7 +459,7 @@
 .messageFrom {
   font-size: 0.8125rem;
   font-weight: 600;
-  color: #0f172a;
+  color: #1A1A2E;
 }
 
 .messageTime {
@@ -477,7 +477,7 @@
 .offerMessage {
   font-size: 1rem;
   font-weight: 600;
-  color: #16a34a;
+  color: #1A1A2E;
   margin: 0;
 }
 
@@ -501,7 +501,7 @@
 
 .messageInput:focus {
   outline: none;
-  border-color: #3b82f6;
+  border-color: #FFFA71;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
@@ -509,7 +509,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  background: #1A1A2E;
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -542,7 +542,7 @@
   gap: 10px;
   font-size: 1.125rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #1A1A2E;
   margin: 0 0 20px 0;
 }
 
@@ -568,20 +568,20 @@
 .itemName {
   font-size: 1rem;
   font-weight: 600;
-  color: #0f172a;
+  color: #1A1A2E;
   margin: 0;
 }
 
 .itemOriginalPrice {
   font-size: 0.9375rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #1A1A2E;
 }
 
 .itemTotal {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #16a34a;
+  color: #1A1A2E;
 }
 
 .previousAmountRow {
@@ -627,7 +627,7 @@
 .newTotalValue {
   font-size: 1rem;
   font-weight: 700;
-  color: #16a34a;
+  color: #1A1A2E;
 }
 
 .itemDetails {
@@ -670,7 +670,7 @@
 
 .itemEditInput:focus {
   outline: none;
-  border-color: #3b82f6;
+  border-color: #FFFA71;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
@@ -704,7 +704,7 @@
 
 .itemNoteInput:focus {
   outline: none;
-  border-color: #3b82f6;
+  border-color: #FFFA71;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
@@ -732,7 +732,7 @@
 
 .generalNoteInput:focus {
   outline: none;
-  border-color: #3b82f6;
+  border-color: #FFFA71;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
   background: #fff;
 }
@@ -743,7 +743,7 @@
   justify-content: center;
   gap: 8px;
   width: 100%;
-  background: #1a1a1a;
+  background: #1A1A2E;
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -791,7 +791,7 @@
 }
 
 .timelineDotOwner {
-  background: #3b82f6;
+  background: #FFFA71;
 }
 
 .timelineContent {
@@ -801,7 +801,7 @@
 .timelineTitle {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #0f172a;
+  color: #1A1A2E;
   margin: 0 0 4px 0;
 }
 

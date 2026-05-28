@@ -24,13 +24,13 @@
 }
 
 .sidebarIcon {
-  color: #3b82f6;
+  color: #FFFA71;
 }
 
 .sidebarTitle {
   font-size: 1.25rem;
   font-weight: 800;
-  color: #0f172a;
+  color: #1A1A2E;
   margin: 0;
   display: flex;
   align-items: center;
@@ -64,11 +64,11 @@
 
 .navItem:hover {
   background: #f1f5f9;
-  color: #0f172a;
+  color: #1A1A2E;
 }
 
 .navItemActive {
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  background: #1A1A2E;
   color: #fff;
   box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
 }
@@ -79,7 +79,7 @@
 }
 
 .infoCard {
-  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  background: linear-gradient(135deg, #FFFA71 0%, #1A1A2E 100%);
   border: 1px solid #fcd34d;
   border-radius: 14px;
   padding: 16px;
@@ -125,7 +125,7 @@
 .pageTitle {
   font-size: 1.75rem;
   font-weight: 800;
-  color: #0f172a;
+  color: #1A1A2E;
   margin: 0;
 }
 
@@ -153,7 +153,7 @@
 }
 
 .searchBox:focus-within {
-  border-color: #3b82f6;
+  border-color: #FFFA71;
 }
 
 .searchBox svg {
@@ -168,7 +168,7 @@
   width: 240px;
   background: transparent;
   font-family: inherit;
-  color: #0f172a;
+  color: #1A1A2E;
 }
 
 .refreshButton {
@@ -177,7 +177,7 @@
   gap: 8px;
   padding: 12px 20px;
   background: #fff;
-  color: #0f172a;
+  color: #1A1A2E;
   border: 2px solid #e2e8f0;
   border-radius: 12px;
   font-size: 0.9375rem;
@@ -187,8 +187,8 @@
 }
 
 .refreshButton:hover {
-  border-color: #3b82f6;
-  color: #3b82f6;
+  border-color: #FFFA71;
+  color: #FFFA71;
   background: #f8fafc;
 }
 
@@ -197,7 +197,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  background: linear-gradient(135deg, #FFFA71 0%, #1A1A2E 100%);
   border: 2px solid #fcd34d;
   border-radius: 14px;
   padding: 16px 20px;
@@ -229,7 +229,7 @@
   width: 48px;
   height: 48px;
   border: 4px solid #e2e8f0;
-  border-top-color: #3b82f6;
+  border-top-color: #FFFA71;
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin: 0 auto 20px;
@@ -282,7 +282,7 @@
 .emptyTitle {
   font-size: 1.25rem;
   font-weight: 800;
-  color: #0f172a;
+  color: #1A1A2E;
   margin: 0 0 12px 0;
 }
 
@@ -331,7 +331,7 @@
 .requestNumber {
   font-size: 0.9375rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #1A1A2E;
 }
 
 .statusBadge {
@@ -359,8 +359,8 @@
 }
 
 .expandButton:hover {
-  border-color: #3b82f6;
-  color: #3b82f6;
+  border-color: #FFFA71;
+  color: #FFFA71;
 }
 
 .cardBody {
@@ -370,7 +370,7 @@
 .requestTitle {
   font-size: 1.125rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #1A1A2E;
   margin: 0 0 20px 0;
 }
 
@@ -396,7 +396,7 @@
 
 .metaValue {
   font-size: 0.9375rem;
-  color: #1e293b;
+  color: #1A1A2E;
   font-weight: 600;
 }
 
@@ -414,7 +414,7 @@
 .sectionTitle {
   font-size: 1rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #1A1A2E;
   margin: 0 0 16px 0;
   padding-bottom: 12px;
   border-bottom: 2px solid #e2e8f0;
@@ -439,7 +439,7 @@
 
 .infoValue {
   font-size: 0.9375rem;
-  color: #1e293b;
+  color: #1A1A2E;
   font-weight: 500;
 }
 
@@ -461,7 +461,7 @@
   text-align: left;
   padding: 14px 16px;
   font-weight: 700;
-  color: #0f172a;
+  color: #1A1A2E;
   background: #f8fafc;
   border-bottom: 2px solid #e2e8f0;
   font-size: 0.75rem;
@@ -477,7 +477,7 @@
 
 .tableBold {
   font-weight: 700;
-  color: #0f172a;
+  color: #1A1A2E;
 }
 
 .priceInput {
@@ -492,7 +492,7 @@
 
 .priceInput:focus {
   outline: none;
-  border-color: #3b82f6;
+  border-color: #FFFA71;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
@@ -509,7 +509,7 @@
   justify-content: center;
   gap: 10px;
   padding: 16px;
-  background: linear-gradient(135deg, #16a34a 0%, #059669 100%);
+  background: #1A1A2E;
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -554,7 +554,7 @@
   justify-content: center;
   gap: 10px;
   padding: 16px;
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  background: #1A1A2E;
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -604,7 +604,7 @@
 
 .quickFillInput:focus {
   outline: none;
-  border-color: #3b82f6;
+  border-color: #FFFA71;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
@@ -639,7 +639,7 @@
 
 .taxRateInput:focus {
   outline: none;
-  border-color: #3b82f6;
+  border-color: #FFFA71;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
@@ -675,7 +675,7 @@
 
 .totalLabelGrand {
   font-size: 1rem;
-  color: #0f172a;
+  color: #1A1A2E;
   font-weight: 700;
 }
 
@@ -687,7 +687,7 @@
 
 .totalValueGrand {
   font-size: 1.25rem;
-  color: #16a34a;
+  color: #1A1A2E;
   font-weight: 800;
 }
 

@@ -117,7 +117,7 @@ const SignaturePad = forwardRef(
           style={viewOnly ? { pointerEvents: "none", opacity: 0.75 } : {}}
         >
           <ReactSignatureCanvas
-            penColor="#0f172a"
+            penColor="#1A1A2E"
             canvasProps={{ className: styles.canvas }}
             ref={sigRef}
             onEnd={handleEnd}

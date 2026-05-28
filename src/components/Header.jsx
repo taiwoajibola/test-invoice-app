@@ -34,7 +34,7 @@ export default function Header({
         <div className={styles.navContainer}>
           <div className={styles.navLeft}>
             <div className={styles.logo} onClick={handleLogoClick} role="button" tabIndex={0}>
-              <img src="/logo.png" alt="Free Invoice" className={styles.logoImage} />
+              <img src="/logo.svg" alt="Free Invoice" className={styles.logoImage} />
               <span className={styles.logoText}>Free Invoice</span>
             </div>
           </div>

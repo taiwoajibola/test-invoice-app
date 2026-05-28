@@ -43,7 +43,7 @@
 .logoName {
   font-size: 1.375rem;
   font-weight: 800;
-  color: #0f172a;
+  color: #1A1A2E;
   letter-spacing: -0.02em;
   line-height: 1.2;
 }
@@ -95,11 +95,11 @@
 
 .navItem:hover {
   background: #f1f5f9;
-  color: #0f172a;
+  color: #1A1A2E;
 }
 
 .navItemActive {
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  background: #1A1A2E;
   color: #fff;
   box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
 }
@@ -140,7 +140,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  background: linear-gradient(135deg, #FFFA71 0%, #1A1A2E 100%);
   border: 1px solid #fcd34d;
   border-radius: 12px;
   padding: 14px;
@@ -197,7 +197,7 @@
   width: 42px;
   height: 42px;
   border-radius: 12px;
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  background: #1A1A2E;
   color: #fff;
   display: flex;
   align-items: center;
@@ -219,7 +219,7 @@
 .profileName {
   font-size: 0.8125rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #1A1A2E;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

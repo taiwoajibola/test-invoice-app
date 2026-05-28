@@ -33,7 +33,7 @@
   gap: 10px;
   font-size: 1.25rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #1A1A2E;
   cursor: pointer;
 }
 
@@ -46,12 +46,12 @@
 .logoIcon {
   width: 28px;
   height: 28px;
-  color: #3b82f6;
+  color: #FFFA71;
 }
 
 .logoText {
   font-weight: 800;
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  background: #1A1A2E;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -76,7 +76,7 @@
 }
 
 .navLink:hover {
-  color: #3b82f6;
+  color: #FFFA71;
 }
 
 .navRight {
@@ -97,7 +97,7 @@
 .invoiceCountNumber {
   font-size: 0.875rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #1A1A2E;
   line-height: 1.2;
 }
 
@@ -110,7 +110,7 @@
 
 .navButtonSecondary {
   background: transparent;
-  color: #0f172a;
+  color: #1A1A2E;
   border: 2px solid #e2e8f0;
   border-radius: 10px;
   padding: 10px 20px;
@@ -121,12 +121,12 @@
 }
 
 .navButtonSecondary:hover {
-  border-color: #3b82f6;
-  color: #3b82f6;
+  border-color: #FFFA71;
+  color: #FFFA71;
 }
 
 .navButtonPrimary {
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  background: #1A1A2E;
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -146,7 +146,7 @@
 .profileName {
   font-size: 0.9375rem;
   font-weight: 600;
-  color: #0f172a;
+  color: #1A1A2E;
   background: #f1f5f9;
   border-radius: 20px;
   padding: 8px 16px;
@@ -180,7 +180,7 @@
   background: transparent;
   border: none;
   cursor: pointer;
-  color: #0f172a;
+  color: #1A1A2E;
   padding: 8px;
 }
 
@@ -207,7 +207,7 @@
 }
 
 .mobileNavLink:hover {
-  color: #3b82f6;
+  color: #FFFA71;
 }
 
 .mobileMenuDivider {
@@ -220,7 +220,7 @@
   padding: 12px 0;
   font-size: 0.9375rem;
   font-weight: 600;
-  color: #0f172a;
+  color: #1A1A2E;
   text-align: center;
 }
 
@@ -240,7 +240,7 @@
 .mobileButtonSecondary {
   width: 100%;
   background: transparent;
-  color: #0f172a;
+  color: #1A1A2E;
   border: 2px solid #e2e8f0;
   border-radius: 10px;
   padding: 12px;
@@ -252,7 +252,7 @@
 
 .mobileButtonPrimary {
   width: 100%;
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  background: #1A1A2E;
   color: #fff;
   border: none;
   border-radius: 10px;

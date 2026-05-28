@@ -34,7 +34,7 @@
   gap: 10px;
   font-size: 0.9375rem;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #1A1A2E;
 }
 
 .logoImage {
@@ -63,7 +63,7 @@
 }
 
 .navLink:hover {
-  color: #1a1a1a;
+  color: #1A1A2E;
 }
 
 .navActions {
@@ -84,7 +84,7 @@
 .invoiceCountNumber {
   font-size: 0.875rem;
   font-weight: 700;
-  color: #1a1a1a;
+  color: #1A1A2E;
   line-height: 1.2;
 }
 
@@ -97,7 +97,7 @@
 
 .signInButton {
   background: transparent;
-  color: #1a1a1a;
+  color: #1A1A2E;
   border: 1px solid #e5e5e5;
   border-radius: 999px;
   padding: 10px 20px;
@@ -108,13 +108,13 @@
 }
 
 .signInButton:hover {
-  background: #1a1a1a;
+  background: #1A1A2E;
   color: #fff;
-  border-color: #1a1a1a;
+  border-color: #1A1A2E;
 }
 
 .signUpButton {
-  background: #1a1a1a;
+  background: #1A1A2E;
   color: #fff;
   border: none;
   border-radius: 999px;
@@ -159,7 +159,7 @@
   align-items: center;
   gap: 8px;
   background: #fff;
-  color: #1a1a1a;
+  color: #1A1A2E;
   padding: 8px 16px;
   border-radius: 24px;
   font-size: 0.8125rem;
@@ -179,7 +179,7 @@
 }
 
 .heroTitleHighlight {
-  color: #1a1a1a;
+  color: #1A1A2E;
 }
 
 .heroSubtitle {
@@ -199,7 +199,7 @@
 }
 
 .heroPrimary {
-  background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+  background: linear-gradient(135deg, #1A1A2E 0%, #333 100%);
   color: #fff;
   border: none;
   border-radius: 999px;
@@ -221,7 +221,7 @@
 
 .heroSecondary {
   background: #fff;
-  color: #1a1a1a;
+  color: #1A1A2E;
   border: 1px solid #e5e5e5;
   border-radius: 999px;
   padding: 16px 32px;
@@ -232,7 +232,7 @@
 }
 
 .heroSecondary:hover {
-  border-color: #1a1a1a;
+  border-color: #1A1A2E;
   background: #f5f5f5;
 }
 
@@ -262,7 +262,7 @@
 .statNumber {
   font-size: 1.75rem;
   font-weight: 700;
-  color: #1a1a1a;
+  color: #1A1A2E;
   letter-spacing: -0.02em;
 }
 
@@ -325,7 +325,7 @@
 }
 
 .logoItem:hover {
-  color: #1a1a1a;
+  color: #1A1A2E;
 }
 
 /* Features Section */
@@ -340,7 +340,7 @@
 .sectionTitle {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #1A1A2E;
   text-align: center;
   margin: 0 0 12px 0;
   letter-spacing: -0.02em;
@@ -369,7 +369,7 @@
 }
 
 .featureCard:hover {
-  border-color: #1a1a1a;
+  border-color: #1A1A2E;
   transform: translateY(-4px);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
 }
@@ -377,7 +377,7 @@
 .featureIconWrapper {
   width: 48px;
   height: 48px;
-  background: #1a1a1a;
+  background: #1A1A2E;
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -394,7 +394,7 @@
 .featureTitle {
   font-size: 1.125rem;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #1A1A2E;
   margin: 0 0 12px 0;
   letter-spacing: -0.01em;
 }
@@ -435,7 +435,7 @@
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background: #1a1a1a;
+  background: #1A1A2E;
   color: #fff;
   display: flex;
   align-items: center;
@@ -448,7 +448,7 @@
 .step h3 {
   font-size: 1.125rem;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #1A1A2E;
   margin: 0 0 12px 0;
 }
 
@@ -485,7 +485,7 @@
 
 /* CTA Section */
 .cta {
-  background: #1a1a1a;
+  background: #1A1A2E;
   padding: 100px 32px;
   text-align: center;
   width: 100%;
@@ -551,7 +551,7 @@
 }
 
 .faqActive {
-  border-color: #1a1a1a;
+  border-color: #1A1A2E;
 }
 
 .faqQuestion {
@@ -565,7 +565,7 @@
   cursor: pointer;
   font-size: 0.9375rem;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #1A1A2E;
   text-align: left;
   transition: all 0.2s;
 }
@@ -593,7 +593,7 @@
 
 /* CTA Section */
 .cta {
-  background: #1a1a1a;
+  background: #1A1A2E;
   padding: 100px 32px;
   text-align: center;
 }
@@ -614,7 +614,7 @@
 
 .ctaButton {
   background: #fff;
-  color: #1a1a1a;
+  color: #1A1A2E;
   border: none;
   border-radius: 999px;
   padding: 18px 48px;

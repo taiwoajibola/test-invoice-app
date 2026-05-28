@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import appLogo from "../assets/logo/free invoice logo.png";
+import appLogo from "../assets/logo/free invoice logo.svg";
 
 const API = import.meta.env.VITE_API_BASE_URL || "";
 
