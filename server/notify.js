@@ -37,5 +37,3 @@ export async function notifyProfiles(profileIds, invoiceId, type, message) {
     });
   }
 }
-BACKEND COMMENTED OUT FOR UX WORK */
-}
