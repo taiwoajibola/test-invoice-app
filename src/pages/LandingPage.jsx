@@ -81,8 +81,7 @@ export default function LandingPage({ onGetStarted, onLogin, invoiceCount }) {
       <nav className={styles.nav}>
         <div className={styles.navContainer}>
           <div className={styles.logo}>
-            <img src="/logo.svg" alt="sabiquot" className={styles.logoImage} />
-            <span className={styles.logoText}>sabiquot</span>
+            <img src="/logo-full.png" alt="sabiquot" className={styles.logoImage} />
           </div>
           <div className={styles.navLinks}>
             <a href="#features" className={styles.navLink}>Features</a>

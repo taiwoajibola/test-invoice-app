@@ -34,8 +34,7 @@ export default function Header({
         <div className={styles.navContainer}>
           <div className={styles.navLeft}>
             <div className={styles.logo} onClick={handleLogoClick} role="button" tabIndex={0}>
-              <img src="/logo.svg" alt="sabiquot" className={styles.logoImage} />
-              <span className={styles.logoText}>sabiquot</span>
+              <img src="/logo-full.png" alt="sabiquot" className={styles.logoImage} />
             </div>
           </div>
           {!hideNavLinks && (
