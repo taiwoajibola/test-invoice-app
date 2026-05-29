@@ -1,4 +1,3 @@
-/* BACKEND COMMENTED OUT FOR UX WORK
 import { supabase } from "./db.js";
 import nodemailer from "nodemailer";
 
