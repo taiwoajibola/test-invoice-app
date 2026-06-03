@@ -10,8 +10,7 @@ export default function InvoiceForm({
   const handleInput = (e) => {
     if (viewOnly) return;
     const { name, value } = e.target;
-    const nextValue =
-      name === "senderPhone" ? value.replace(/\D/g, "") : value;
+    const nextValue = name === "senderPhone" ? value.replace(/\D/g, "") : value;
     onChange({ ...invoice, [name]: nextValue });
   };
 
@@ -22,11 +21,7 @@ export default function InvoiceForm({
     >
       <label>
         Invoice ID
-        <input
-          name="number"
-          value={invoice.number}
-          onChange={handleInput}
-        />
+        <input name="number" value={invoice.number} onChange={handleInput} />
       </label>
       <label>
         Sender Company Name
