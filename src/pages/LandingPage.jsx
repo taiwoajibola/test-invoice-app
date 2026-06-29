@@ -13,7 +13,12 @@ import {
 import ParticleBackground from "../components/ParticleBackground";
 import styles from "./LandingPage.module.css";
 
-export default function LandingPage({ onGetStarted, onLogin, invoiceCount }) {
+export default function LandingPage({
+  onGetStarted,
+  onLogin,
+  onNavigate,
+  invoiceCount,
+}) {
   const [activeFaq, setActiveFaq] = useState(null);
 
   const handleGetStarted = () => {
@@ -329,6 +334,37 @@ export default function LandingPage({ onGetStarted, onLogin, invoiceCount }) {
 
       {/* Footer */}
       <footer className={styles.footer}>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            gap: "20px",
+            marginBottom: "12px",
+          }}
+        >
+          {[
+            { slug: "terms", label: "Terms & Conditions" },
+            { slug: "privacy", label: "Privacy Policy" },
+            { slug: "kyc", label: "KYC Policy" },
+            { slug: "commission", label: "Commission Policy" },
+          ].map((l) => (
+            <button
+              key={l.slug}
+              onClick={() => onNavigate?.(l.slug)}
+              style={{
+                background: "transparent",
+                border: "none",
+                color: "inherit",
+                opacity: 0.85,
+                cursor: "pointer",
+                fontSize: "0.9rem",
+              }}
+            >
+              {l.label}
+            </button>
+          ))}
+        </div>
         <p>© 2026 sabiquot. Built for businesses everywhere.</p>
       </footer>
     </div>

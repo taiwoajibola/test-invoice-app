@@ -22,6 +22,7 @@ import InvoicesPage from "./pages/InvoicesPage";
 import NegotiationsPage from "./pages/NegotiationsPage";
 import RFQPage from "./pages/RFQPage";
 import LandingPage from "./pages/LandingPage";
+import LegalPage from "./pages/LegalPage";
 import RequestsPage from "./pages/RequestsPage";
 import SettingsPage from "./pages/SettingsPage";
 import NegotiationDetailsPage from "./pages/NegotiationDetailsPage";
@@ -48,6 +49,9 @@ function App() {
 
   const [page, setPage] = useState(() => {
     const params = new URLSearchParams(window.location.search);
+    const legal = params.get("legal");
+    if (legal && ["terms", "privacy", "kyc", "commission"].includes(legal))
+      return legal;
     if (params.get("id") || params.get("request_id") || params.get("rfq"))
       return "main";
     try {
@@ -372,7 +376,18 @@ function App() {
             setPage("main");
           }}
           onLogin={() => setPage("login")}
+          onNavigate={(p) => setPage(p)}
           invoiceCount={totalInvoices}
+        />
+      );
+    }
+
+    if (["terms", "privacy", "kyc", "commission"].includes(page)) {
+      return (
+        <LegalPage
+          slug={page}
+          onBack={() => setPage(profile ? "main" : "landing")}
+          onNavigate={(p) => setPage(p)}
         />
       );
     }
